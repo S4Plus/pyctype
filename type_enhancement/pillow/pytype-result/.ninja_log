@@ -1,0 +1,10 @@
+# ninja log v5
+0	766	1620212566445266844	/Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/change_brightness.pyi	8ce3c96c1e0f0c8
+2271	3064	1620212568750406718	/Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/meanthreshold.pyi	26f0b35c33903c51
+3064	3787	1620212569485477090	/Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/change_contrast.pyi	26ab93b7cf7c39e4
+3787	4744	1620212570402568761	/Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/one_dimensional.pyi	c25f4a2e643ab23
+5475	6282	1620212571976431969	/Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/images.pyi	70b916e74c2ddeb2
+6282	6989	1620212572688725761	/Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/image_mobject.pyi	2b838de02eb4239d
+8727	9415	1620212575118270282	/Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/image_processing.pyi	b6f59975015c5ffa
+10945	12328	1620212577937727853	/Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/conways_game_of_life.pyi	b718d1e15eac5859
+13310	13999	1620212579701590774	/Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/mandelbrot.pyi	584df0027768a919

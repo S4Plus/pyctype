@@ -1,0 +1,54 @@
+rule infer
+  command = /Users/hmz/.pyenv/versions/3.6.9/envs/venv36/bin/python3.6 -m pytype.single --imports_info $imports --module-name $module -V 3.6 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/hmz/.pyenv/versions/3.6.9/envs/venv36/bin/python3.6 -m pytype.single --imports_info $imports --module-name $module -V 3.6 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/change_brightness.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/change_brightness.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/change_brightness.imports
+  module = change_brightness
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/screenshots.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/screenshots.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/screenshots.imports
+  module = screenshots
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/meanthreshold.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/meanthreshold.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/meanthreshold.imports
+  module = meanthreshold
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/change_contrast.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/change_contrast.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/change_contrast.imports
+  module = change_contrast
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/one_dimensional.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/one_dimensional.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/one_dimensional.imports
+  module = one_dimensional
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/find_faces_in_picture.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/find_faces_in_picture.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/find_faces_in_picture.imports
+  module = find_faces_in_picture
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/images.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/images.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/images.imports
+  module = images
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/test_pipeline_images.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/test_pipeline_images.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/test_pipeline_images.imports
+  module = test_pipeline_images
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/image_mobject.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/image_mobject.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/image_mobject.imports
+  module = image_mobject
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/convert_to_tflite.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/convert_to_tflite.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/convert_to_tflite.imports
+  module = convert_to_tflite
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/image_processing.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/image_processing.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/image_processing.imports
+  module = image_processing
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/utils.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/utils.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/utils.imports
+  module = utils
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/processing_image.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/processing_image.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/processing_image.imports
+  module = processing_image
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/conways_game_of_life.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/conways_game_of_life.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/conways_game_of_life.imports
+  module = conways_game_of_life
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/_pilutil.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/_pilutil.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/_pilutil.imports
+  module = _pilutil
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/pyi/mandelbrot.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/mandelbrot.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype/imports/mandelbrot.imports
+  module = mandelbrot

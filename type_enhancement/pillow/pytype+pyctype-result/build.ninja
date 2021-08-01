@@ -1,0 +1,9 @@
+rule infer
+  command = /Users/hmz/.pyenv/versions/3.6.9/envs/venv36/bin/python3.6 -m pytype.single --imports_info $imports --module-name $module -V 3.6 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/hmz/.pyenv/versions/3.6.9/envs/venv36/bin/python3.6 -m pytype.single --imports_info $imports --module-name $module -V 3.6 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype+/pyi/conways_game_of_life.pyi: check /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/PIL-testcase/conways_game_of_life.py
+  imports = /Users/hmz/Projects/HMZ/pyctype-dev/2.0/type-enhancement/pytype+/imports/conways_game_of_life.imports
+  module = conways_game_of_life

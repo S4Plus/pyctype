@@ -1,0 +1,533 @@
+/Users/hmz/Projects/numpy/numpy/core/src/dummymodule.c
+/Users/hmz/Projects/numpy/numpy/core/src/npysort/radixsort.c
+/Users/hmz/Projects/numpy/numpy/core/src/npysort/binsearch.c
+/Users/hmz/Projects/numpy/numpy/core/src/npysort/timsort.c
+/Users/hmz/Projects/numpy/numpy/core/src/npysort/selection.c
+/Users/hmz/Projects/numpy/numpy/core/src/npysort/quicksort.c
+/Users/hmz/Projects/numpy/numpy/core/src/npysort/heapsort.c
+/Users/hmz/Projects/numpy/numpy/core/src/npysort/mergesort.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/hashdescr.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/strfuncs.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/arrayfunction_override.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/common.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/item_selection.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/datetime_strings.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/scalarapi.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/buffer.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/vdot.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/multiarraymodule.c
+Command '['gcc', '-E', '-std=c99', '-D__attribute__(x)=', '-I/Users/hmz/Projects/pycparser/utils/fake_libc_include', '-I/Users/hmz/.pyenv/versions/3.6.9/include/python3.6m', '-I./extra_fake_libc_include', '-I/Users/hmz/Projects/numpy/numpy/core/include', '-I/Users/hmz/Projects/numpy/numpy/core/include/numpy', '-I/Users/hmz/Projects/numpy/numpy/core/src/multiarray', '-I/Users/hmz/Projects/numpy/numpy/core/src/common', '-I/Users/hmz/Projects/numpy/numpy/core/src/umath', '-I/Users/hmz/Projects/numpy/numpy/f2py/src', '-I/Users/hmz/Projects/numpy/numpy/random/include', '-I/Users/hmz/Projects/numpy/numpy/random/', '-Dnpy_uint8=unsigned int', '-Dnpy_uint16=unsigned int', '-Dnpy_uint32=unsigned int', '-Dnpy_uint64=unsigned long', '-Dnpy_int8=int', '-Dnpy_int16=int', '-Dnpy_int32=int', '-Dnpy_int64=long', '-Dnpy_ucs4=unsigned long', '-DNPY_INT32_FMT="hhd"', '-DNPY_INT64_FMT="hhd"', '-Dnpy_float32=float', '-Dnpy_float64=float', '-D__inline__=', '-DPyArray_BinSearchFunc=int', '-DPyArray_ArgBinSearchFunc=int', '-D__uint128_t=int', '/Users/hmz/Projects/numpy/numpy/core/src/multiarray/multiarraymodule.c']' returned non-zero exit status 1.
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/_multiarray_tests.c
+numpy/core/src/multiarray/_multiarray_tests.c.src:1717:5: before: npy_complex64
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/sequence.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_api.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/array_assign_array.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/datetime_busdaycal.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/convert.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/iterators.c
+PyMethodDef [2] iter_methods (L1032)
+PyMethodDef [1] arraymultiter_methods (L1509)
+__array__ -> iter_array (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/iterators.c:987:1)
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+['list', []]
+copy -> iter_copy (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/iterators.c:1024:1)
+[[]]
+--->>>
+['object', []]
+reset -> arraymultiter_reset (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/iterators.c:1500:1)
+[[]]
+--->>>
+['None', []]
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_templ.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/number.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/refcount.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/dragon4.c
+Command '['gcc', '-E', '-std=c99', '-D__attribute__(x)=', '-I/Users/hmz/Projects/pycparser/utils/fake_libc_include', '-I/Users/hmz/.pyenv/versions/3.6.9/include/python3.6m', '-I./extra_fake_libc_include', '-I/Users/hmz/Projects/numpy/numpy/core/include', '-I/Users/hmz/Projects/numpy/numpy/core/include/numpy', '-I/Users/hmz/Projects/numpy/numpy/core/src/multiarray', '-I/Users/hmz/Projects/numpy/numpy/core/src/common', '-I/Users/hmz/Projects/numpy/numpy/core/src/umath', '-I/Users/hmz/Projects/numpy/numpy/f2py/src', '-I/Users/hmz/Projects/numpy/numpy/random/include', '-I/Users/hmz/Projects/numpy/numpy/random/', '-Dnpy_uint8=unsigned int', '-Dnpy_uint16=unsigned int', '-Dnpy_uint32=unsigned int', '-Dnpy_uint64=unsigned long', '-Dnpy_int8=int', '-Dnpy_int16=int', '-Dnpy_int32=int', '-Dnpy_int64=long', '-Dnpy_ucs4=unsigned long', '-DNPY_INT32_FMT="hhd"', '-DNPY_INT64_FMT="hhd"', '-Dnpy_float32=float', '-Dnpy_float64=float', '-D__inline__=', '-DPyArray_BinSearchFunc=int', '-DPyArray_ArgBinSearchFunc=int', '-D__uint128_t=int', '/Users/hmz/Projects/numpy/numpy/core/src/multiarray/dragon4.c']' returned non-zero exit status 1.
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/temp_elide.c
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/base.h:322:15: before: ^
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c
+PyMethodDef [69] array_methods (L2624)
+__array__ -> array_getarray (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:948:1)
+|O&:__array__
+[['object']]
+--->>>
+['object', 'object', []]
+__array_prepare__ -> array_preparearray (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:912:1)
+--->>>
+['object', 'list', []]
+__array_wrap__ -> array_wraparray (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:872:1)
+--->>>
+['list', 'object', []]
+__array_ufunc__ -> array_ufunc (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1046:1)
+--->>>
+['object', []]
+__array_function__ -> array_function (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1095:1)
+OOOO:__array_function__
+['object', 'object', 'object', 'object', []]
+--->>>
+['object', []]
+__sizeof__ -> array_sizeof (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2149:1)
+[]
+--->>>
+['int', []]
+__copy__ -> array_copy_keeporder (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1134:1)
+:__copy__
+[[]]
+--->>>
+['list', []]
+__deepcopy__ -> array_deepcopy (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1522:1)
+O:__deepcopy__
+['object', []]
+--->>>
+['object', []]
+__reduce__ -> array_reduce (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1646:1)
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+Tuple
+object
+['object', 'object', []]
+__reduce_ex__ -> array_reduce_ex (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1840:1)
+i
+['int', []]
+--->>>
+['object', 'object', []]
+__setstate__ -> array_setstate (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1869:1)
+(iO!O!iO):__setstate__
+["('int', 'object', 'object', 'int', 'object')", []]
+(O!O!iO):__setstate__
+["('object', 'object', 'int', 'object')", []]
+--->>>
+['object', 'object', 'object', 'None', 'object', 'None', 'object', 'None', []]
+dumps -> array_dumps (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2142:1)
+--->>>
+['object', []]
+dump -> array_dump (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2135:1)
+--->>>
+['object', []]
+__complex__ -> array_complex (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2555:1)
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+Complex
+object
+['object', 'object', 'object', []]
+all -> array_all (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2291:1)
+--->>>
+['object', []]
+any -> array_any (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2284:1)
+--->>>
+['object', []]
+argmax -> array_argmax (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:295:1)
+|O&O&:argmax
+[['object', 'object']]
+--->>>
+['object', []]
+argmin -> array_argmin (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:310:1)
+|O&O&:argmin
+[['object', 'object']]
+--->>>
+['object', []]
+argpartition -> array_argpartition (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1401:1)
+O|O&O&O:argpartition
+['object', ['object', 'object', 'object']]
+--->>>
+['object', []]
+argsort -> array_argsort (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1349:1)
+|O&O&O:argsort
+[['object', 'object', 'object']]
+--->>>
+['object', []]
+astype -> array_astype (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:794:1)
+O&|O&O&ii:astype
+['object', ['object', 'object', 'int', 'int']]
+--->>>
+['object', 'object', []]
+byteswap -> array_byteswap (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:534:1)
+|O&:byteswap
+[['object']]
+--->>>
+['object', []]
+choose -> array_choose (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1198:1)
+O:choose
+['object', []]
+--->>>
+['object', []]
+clip -> array_clip (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2365:1)
+--->>>
+['object', []]
+compress -> array_compress (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2309:1)
+O|O&O&:compress
+['object', ['object', 'object']]
+--->>>
+['object', []]
+conj -> array_conjugate (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2372:1)
+|O&:conjugate
+[['object']]
+--->>>
+['object', []]
+conjugate -> array_conjugate (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2372:1)
+|O&:conjugate
+[['object']]
+--->>>
+['object', []]
+copy -> array_copy (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1119:1)
+|O&:copy
+[['object']]
+--->>>
+['list', []]
+cumprod -> array_cumprod (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2234:1)
+|O&O&O&:cumprod
+[['object', 'object', 'object']]
+--->>>
+['object', []]
+cumsum -> array_cumsum (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2206:1)
+|O&O&O&:cumsum
+[['object', 'object', 'object']]
+--->>>
+['object', []]
+diagonal -> array_diagonal (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2385:1)
+|iii:diagonal
+[['int', 'int', 'int']]
+--->>>
+['object', []]
+dot -> array_dot (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2257:1)
+O|O:dot
+['object', ['object']]
+--->>>
+['object', []]
+fill -> array_fill (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:154:1)
+O:fill
+['object', []]
+--->>>
+['None', []]
+flatten -> array_flatten (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2404:1)
+|O&:flatten
+[['object']]
+--->>>
+['object', []]
+getfield -> array_getfield (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:416:1)
+O&|i:getfield
+['object', ['int']]
+--->>>
+['object', []]
+item -> array_toscalar (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:645:1)
+--->>>
+['object', []]
+itemset -> array_setscalar (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:711:1)
+--->>>
+['None', []]
+max -> array_max (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:325:1)
+--->>>
+['object', []]
+mean -> array_mean (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2193:1)
+--->>>
+['object', []]
+min -> array_min (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:331:1)
+--->>>
+['object', []]
+newbyteorder -> array_newbyteorder (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2537:1)
+|O&:newbyteorder
+[['object']]
+--->>>
+['object', []]
+nonzero -> array_nonzero (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2328:1)
+[[]]
+--->>>
+['object', []]
+partition -> array_partition (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1281:1)
+O|iO&O:partition
+['object', ['int', 'object', 'object']]
+--->>>
+['None', []]
+prod -> array_prod (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2228:1)
+--->>>
+['object', []]
+ptp -> array_ptp (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:337:1)
+--->>>
+['object', []]
+put -> array_put (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:167:1)
+OO|O&:put
+['object', 'object', ['object']]
+--->>>
+['object', []]
+ravel -> array_ravel (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2418:1)
+|O&:ravel
+[['object']]
+--->>>
+['object', []]
+repeat -> array_repeat (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1184:1)
+O|O&:repeat
+['object', ['object']]
+--->>>
+['object', []]
+reshape -> array_reshape (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:182:1)
+O&:reshape
+['object', []]
+--->>>
+list
+['object', 'object', 'object', []]
+resize -> array_resize (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1144:1)
+--->>>
+['None', 'None', 'None', []]
+round -> array_round (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2432:1)
+|iO&:round
+[['int', 'object']]
+--->>>
+['object', []]
+searchsorted -> array_searchsorted (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1462:1)
+O|O&O:searchsorted
+['object', ['object', 'object']]
+--->>>
+['object', []]
+setfield -> array_setfield (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:462:1)
+OO&|i:setfield
+['object', 'object', ['int']]
+--->>>
+['None', []]
+setflags -> array_setflags (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2449:1)
+|OOO:setflags
+[['object', 'object', 'object']]
+--->>>
+['None', []]
+sort -> array_sort (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1225:1)
+|iO&O:sort
+[['int', 'object', 'object']]
+--->>>
+['None', []]
+squeeze -> array_squeeze (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:223:1)
+|O:squeeze
+[['object']]
+--->>>
+['object', 'object', []]
+std -> array_stddev (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2297:1)
+--->>>
+['object', []]
+sum -> array_sum (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2199:1)
+--->>>
+['object', []]
+swapaxes -> array_swapaxes (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:344:1)
+ii:swapaxes
+['int', 'int', []]
+--->>>
+['object', []]
+take -> array_take (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:134:1)
+O|O&O&O&:take
+['object', ['object', 'object', 'object']]
+--->>>
+['object', []]
+tobytes -> array_tobytes (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:557:1)
+|O&:tobytes
+[['object']]
+--->>>
+['object', []]
+tofile -> array_tofile (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:591:1)
+O|ss:tofile
+['object', ['str', 'str']]
+--->>>
+['None', []]
+tolist -> array_tolist (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:547:1)
+[[]]
+--->>>
+['object', []]
+tostring -> array_tostring (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:570:1)
+|O&:tostring
+[['object']]
+--->>>
+['object', []]
+trace -> array_trace (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2338:1)
+|iiiO&O&:trace
+[['int', 'int', 'int', 'object', 'object']]
+--->>>
+['object', []]
+transpose -> array_transpose (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2162:1)
+--->>>
+['object', []]
+var -> array_variance (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2303:1)
+--->>>
+['object', []]
+view -> array_view (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:248:1)
+|OO:view
+[['object', 'object']]
+--->>>
+['object', []]
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/lowlevel_strided_loops.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/typeinfo.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/alloc.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/conversion_utils.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/arrayobject.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/flagsobject.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/getset.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/dtype_transfer.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/calculation.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/array_assign_scalar.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/scalartypes.c
+Command '['gcc', '-E', '-std=c99', '-D__attribute__(x)=', '-I/Users/hmz/Projects/pycparser/utils/fake_libc_include', '-I/Users/hmz/.pyenv/versions/3.6.9/include/python3.6m', '-I./extra_fake_libc_include', '-I/Users/hmz/Projects/numpy/numpy/core/include', '-I/Users/hmz/Projects/numpy/numpy/core/include/numpy', '-I/Users/hmz/Projects/numpy/numpy/core/src/multiarray', '-I/Users/hmz/Projects/numpy/numpy/core/src/common', '-I/Users/hmz/Projects/numpy/numpy/core/src/umath', '-I/Users/hmz/Projects/numpy/numpy/f2py/src', '-I/Users/hmz/Projects/numpy/numpy/random/include', '-I/Users/hmz/Projects/numpy/numpy/random/', '-Dnpy_uint8=unsigned int', '-Dnpy_uint16=unsigned int', '-Dnpy_uint32=unsigned int', '-Dnpy_uint64=unsigned long', '-Dnpy_int8=int', '-Dnpy_int16=int', '-Dnpy_int32=int', '-Dnpy_int64=long', '-Dnpy_ucs4=unsigned long', '-DNPY_INT32_FMT="hhd"', '-DNPY_INT64_FMT="hhd"', '-Dnpy_float32=float', '-Dnpy_float64=float', '-D__inline__=', '-DPyArray_BinSearchFunc=int', '-DPyArray_ArgBinSearchFunc=int', '-D__uint128_t=int', '/Users/hmz/Projects/numpy/numpy/core/src/multiarray/scalartypes.c']' returned non-zero exit status 1.
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_constr.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/convert_datatype.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/mapping.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/descriptor.c
+PyMethodDef [3] arraydescr_methods (L3058)
+__reduce__ -> arraydescr_reduce (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/descriptor.c:2395:1)
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+Tuple
+object
+['object', 'object', []]
+__setstate__ -> arraydescr_setstate (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/descriptor.c:2549:1)
+(iOOOOiiiO):__setstate__
+["('int', 'object', 'object', 'object', 'object', 'int', 'int', 'int', 'object')", []]
+(iOOOOiii):__setstate__
+["('int', 'object', 'object', 'object', 'object', 'int', 'int', 'int')", []]
+(iOOOOii):__setstate__
+["('int', 'object', 'object', 'object', 'object', 'int', 'int')", []]
+(iOOOii):__setstate__
+["('int', 'object', 'object', 'object', 'int', 'int')", []]
+(OOOii):__setstate__
+["('object', 'object', 'object', 'int', 'int')", []]
+--->>>
+['None', 'object', 'None', []]
+newbyteorder -> arraydescr_newbyteorder (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/descriptor.c:3047:1)
+|O&:newbyteorder
+[['object']]
+--->>>
+['object', []]
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/ctors.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/einsum.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/compiled_base.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/shape.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/arraytypes.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c
+PyMethodDef [11] npyiter_methods (L2328)
+reset -> npyiter_reset (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:1186:1)
+[]
+--->>>
+['None', []]
+copy -> npyiter_copy (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:1223:1)
+[]
+--->>>
+['object', []]
+__copy__ -> npyiter_copy (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:1223:1)
+[]
+--->>>
+['object', []]
+iternext -> npyiter_iternext (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:1259:1)
+[]
+--->>>
+['bool', 'bool', []]
+remove_axis -> npyiter_remove_axis (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:1277:1)
+i:remove_axis
+['int', []]
+--->>>
+['None', []]
+remove_multi_index -> npyiter_remove_multi_index (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:1312:1)
+[]
+--->>>
+['None', []]
+enable_external_loop -> npyiter_enable_external_loop (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:1337:1)
+[]
+--->>>
+['None', []]
+debug_print -> npyiter_debug_print (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:1362:1)
+[]
+--->>>
+['None', []]
+__enter__ -> npyiter_enter (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:2293:1)
+[]
+--->>>
+['object', []]
+__exit__ -> npyiter_exit (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:2322:1)
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+['object', []]
+close -> npyiter_close (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:2304:1)
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+['None', 'None', []]
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/datetime_busday.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/datetime.c
+/Users/hmz/Projects/numpy/numpy/core/src/multiarray/usertypes.c
+/Users/hmz/Projects/numpy/numpy/core/src/npymath/halffloat.c
+/Users/hmz/Projects/numpy/numpy/core/src/npymath/npy_math.c
+/Users/hmz/Projects/numpy/numpy/core/src/npymath/npy_math_private.h:511:9: before: complex
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/npymath/npy_math_complex.c
+/Users/hmz/Projects/numpy/numpy/core/src/npymath/npy_math_private.h:511:9: before: complex
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/npymath/_signbit.c
+/Users/hmz/Projects/numpy/numpy/core/src/npymath/ieee754.c
+/Users/hmz/Projects/numpy/numpy/core/src/npymath/npy_math_private.h:511:9: before: complex
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/common/numpyos.c
+/Users/hmz/Projects/numpy/numpy/core/src/common/ufunc_override.c
+/Users/hmz/Projects/numpy/numpy/core/src/common/array_assign.c
+/Users/hmz/Projects/numpy/numpy/core/src/common/mem_overlap.c
+/Users/hmz/Projects/numpy/numpy/core/src/common/cblasfuncs.c
+/Users/hmz/Projects/numpy/numpy/core/src/common/python_xerbla.c
+/Users/hmz/Projects/numpy/numpy/core/src/common/npy_longdouble.c
+/Users/hmz/Projects/numpy/numpy/core/src/common/npy_cpu_features.c
+numpy/core/src/common/npy_cpu_features.c.src:83:36: before: :
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/common/ucsnarrow.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/extobj.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/clip.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/ufunc_object.c
+PyMethodDef [5] ufunc_methods (L5880)
+reduce -> ufunc_reduce (/Users/hmz/Projects/numpy/numpy/core/src/umath/ufunc_object.c:5501:1)
+--->>>
+['object', 'object', []]
+accumulate -> ufunc_accumulate (/Users/hmz/Projects/numpy/numpy/core/src/umath/ufunc_object.c:5517:1)
+--->>>
+['object', 'object', []]
+reduceat -> ufunc_reduceat (/Users/hmz/Projects/numpy/numpy/core/src/umath/ufunc_object.c:5533:1)
+--->>>
+['object', 'object', []]
+outer -> ufunc_outer (/Users/hmz/Projects/numpy/numpy/core/src/umath/ufunc_object.c:5382:1)
+--->>>
+['object', 'object', []]
+at -> ufunc_at (/Users/hmz/Projects/numpy/numpy/core/src/umath/ufunc_object.c:5570:1)
+OO|O:at
+['object', 'object', ['object']]
+--->>>
+['object', 'None', []]
+/Users/hmz/Projects/numpy/numpy/core/src/umath/_rational_tests.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/loops.c
+numpy/core/src/umath/simd.inc.src:1600:1: before: avx512_get_full_load_mask_ps
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/numpy/numpy/core/src/umath/reduction.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/_operand_flag_tests.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/override.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/scalarmath.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/matmul.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/umathmodule.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/_struct_ufunc_tests.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/_umath_tests.c
+/Users/hmz/Projects/numpy/numpy/core/src/umath/ufunc_type_resolution.c
+========== statistics ==========
+time elapse: 76.367s
+file analyzed directly: 83
+file analyzed directly and compilable: 73
+wrapper function (WP): 90
+WP has format string(s): 51
+WP with METH_NOARGS: 9
+WP possibly with a bug: 6
+__complex__ -> array_complex (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:2555:1)
+close -> npyiter_close (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:2304:1)
+__exit__ -> npyiter_exit (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:2322:1)
+__reduce__ -> array_reduce (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/methods.c:1646:1)
+__array__ -> iter_array (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/iterators.c:987:1)
+__reduce__ -> arraydescr_reduce (/Users/hmz/Projects/numpy/numpy/core/src/multiarray/descriptor.c:2395:1)

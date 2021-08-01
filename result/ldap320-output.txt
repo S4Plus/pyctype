@@ -1,0 +1,156 @@
+/Users/hmz/Projects/python-ldap/Modules/common.c
+/Users/hmz/Projects/python-ldap/Modules/constants.c
+/Users/hmz/Projects/python-ldap/Modules/functions.c
+PyMethodDef [4] methods (L138)
+initialize -> l_ldap_initialize (/Users/hmz/Projects/python-ldap/Modules/functions.c:13:1)
+s:initialize
+['str', []]
+--->>>
+['object', 'object', []]
+str2dn -> l_ldap_str2dn (/Users/hmz/Projects/python-ldap/Modules/functions.c:36:1)
+z#|i:str2dn
+['str | immutable bytes-like object | None', ['int']]
+--->>>
+list
+['object', 'object', 'object', 'object', []]
+set_option -> l_ldap_set_option (/Users/hmz/Projects/python-ldap/Modules/functions.c:111:1)
+iO:set_option
+['int', 'object', []]
+--->>>
+['None', []]
+get_option -> l_ldap_get_option (/Users/hmz/Projects/python-ldap/Modules/functions.c:127:1)
+i:get_option
+['int', []]
+--->>>
+['object', []]
+/Users/hmz/Projects/python-ldap/Modules/berval.c
+/Users/hmz/Projects/python-ldap/Modules/ldapmodule.c
+/Users/hmz/Projects/python-ldap/Modules/ldapcontrol.c
+PyMethodDef [4] methods (L381)
+encode_page_control -> encode_rfc2696 (/Users/hmz/Projects/python-ldap/Modules/ldapcontrol.c:242:1)
+is#:encode_page_control
+['int', 'str | immutable bytes-like object', []]
+--->>>
+['object', []]
+decode_page_control -> decode_rfc2696 (/Users/hmz/Projects/python-ldap/Modules/ldapcontrol.c:298:1)
+s#:decode_page_control
+['str | immutable bytes-like object', []]
+--->>>
+['object', []]
+encode_valuesreturnfilter_control -> encode_rfc3876 (/Users/hmz/Projects/python-ldap/Modules/ldapcontrol.c:201:1)
+s:encode_valuesreturnfilter_control
+['str', []]
+--->>>
+['object', []]
+encode_assertion_control -> encode_assertion_control (/Users/hmz/Projects/python-ldap/Modules/ldapcontrol.c:335:1)
+s:encode_assertion_control
+['str', []]
+--->>>
+['object', 'object', []]
+/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c
+PyMethodDef [19] methods (L1523)
+unbind_ext -> l_ldap_unbind_ext (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:384:1)
+|OO:unbind_ext
+[['object', 'object']]
+--->>>
+['object', 'None', []]
+abandon_ext -> l_ldap_abandon_ext (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:428:1)
+i|OO:abandon_ext
+['int', ['object', 'object']]
+--->>>
+['object', 'None', []]
+add_ext -> l_ldap_add_ext (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:473:1)
+sO|OO:add_ext
+['str', 'object', ['object', 'object']]
+--->>>
+['object', 'int', []]
+simple_bind -> l_ldap_simple_bind (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:528:1)
+zz#|OO:simple_bind
+['str | None', 'str | immutable bytes-like object | None', ['object', 'object']]
+--->>>
+['object', 'int', []]
+sasl_interactive_bind_s -> l_ldap_sasl_interactive_bind_s (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:735:1)
+sOOOI:sasl_interactive_bind_s
+['str', 'object', 'object', 'object', 'unsigned int', []]
+--->>>
+['object', 'int', []]
+sasl_bind_s -> l_ldap_sasl_bind_s (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:676:1)
+zzz#OO:sasl_bind_s
+['str | None', 'str | None', 'str | immutable bytes-like object | None', 'object', 'object', []]
+--->>>
+['bytes', 'object', 'int', []]
+compare_ext -> l_ldap_compare_ext (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:867:1)
+sss#|OO:compare_ext
+['str', 'str', 'str | immutable bytes-like object', ['object', 'object']]
+--->>>
+['object', 'int', []]
+delete_ext -> l_ldap_delete_ext (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:919:1)
+s|OO:delete_ext
+['str', ['object', 'object']]
+--->>>
+['object', 'int', []]
+modify_ext -> l_ldap_modify_ext (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:965:1)
+sO|OO:modify_ext
+['str', 'object', ['object', 'object']]
+--->>>
+['object', 'int', []]
+rename -> l_ldap_rename (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:1022:1)
+ss|ziOO:rename
+['str', 'str', ['str | None', 'int', 'object', 'object']]
+--->>>
+['object', 'int', []]
+result4 -> l_ldap_result4 (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:1072:1)
+|iidiii:result4
+[['int', 'int', 'float', 'int', 'int', 'int']]
+--->>>
+['object', 'object', 'object', 'object', 'object', ["('object', 'object', 'object', 'object', 'object', 'object')", '[]', "('object', 'object', 'object', 'object')", '[]']]
+search_ext -> l_ldap_search_ext (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:1232:1)
+sis|OiOOdi:search_ext
+['str', 'int', 'str', ['object', 'int', 'object', 'object', 'float', 'int']]
+--->>>
+['object', 'int', []]
+start_tls_s -> l_ldap_start_tls_s (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:1359:1)
+:start_tls_s
+[[]]
+--->>>
+['object', 'None', []]
+whoami_s -> l_ldap_whoami_s (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:1307:1)
+|OO:whoami_s
+[['object', 'object']]
+--->>>
+['object', 'object', []]
+passwd -> l_ldap_passwd (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:1413:1)
+z#z#z#|OO:passwd
+['str | immutable bytes-like object | None', 'str | immutable bytes-like object | None', 'str | immutable bytes-like object | None', ['object', 'object']]
+--->>>
+['object', 'int', []]
+set_option -> l_ldap_set_option (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:1385:1)
+iO:set_option
+['int', 'object', []]
+--->>>
+['None', []]
+get_option -> l_ldap_get_option (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:1401:1)
+i:get_option
+['int', []]
+--->>>
+['object', []]
+cancel -> l_ldap_cancel (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:819:1)
+i|OO:cancel
+['int', ['object', 'object']]
+--->>>
+['object', 'int', []]
+extop -> l_ldap_extended_operation (/Users/hmz/Projects/python-ldap/Modules/LDAPObject.c:1473:1)
+sz#|OO:extended_operation
+['str', 'str | immutable bytes-like object | None', ['object', 'object']]
+--->>>
+['object', 'int', []]
+/Users/hmz/Projects/python-ldap/Modules/options.c
+/Users/hmz/Projects/python-ldap/Modules/message.c
+========== statistics ==========
+time elapse: 5.292s
+file analyzed directly: 9
+file analyzed directly and compilable: 9
+wrapper function (WP): 27
+WP has format string(s): 27
+WP with METH_NOARGS: 0
+WP possibly with a bug: 0

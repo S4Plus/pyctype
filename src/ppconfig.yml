@@ -1,0 +1,125 @@
+#-------------------------------------------------------------------------------
+# Configs for debugging and restoring the preprocess compilation options.
+#
+# pycparser supports the full C99 language, some features from C11, 
+# and very few GCC extensions.
+#
+# For something outside the C runtime (standard library), 
+# e.g., system lib., third party lib., their definitions should be given 
+# explicitly with compilation options.
+#
+# Some useful cpp_args:
+#   -nostdinc: block gcc pre-set system header directories, forcing it only 
+#              looks in the directories explicitly specified with -I
+#   -std=c99: prevent gcc from taking C for C++ for some reasons
+#   -D__attribute__(x)=: #define GNU-specifics
+#     -D<macro>=<value>  Define <macro> to <value> (or 1 if <value> omitted)
+#   -I/YOUR_PATH/llvm-project/lldb/include/lldb/Host/windows/:
+#     path for cross compiling Windows (windows.h and other headers), 
+#     use extra_fake_libc_include/windows.h instead
+#-------------------------------------------------------------------------------
+all:
+ - -E
+ - -std=c99
+ - -D__attribute__(x)=
+ - -I/Users/hmz/projects/pycparser/utils/fake_libc_include
+# fake headers from pycparser: https://github.com/eliben/pycparser
+
+ldap:
+ - -I/Users/hmz/projects/cpython/Include
+ - -I/Users/hmz/projects/cpython
+ - -DHAVE_SASL
+ - -DHAVE_TLS
+ - -DLDAP_API_FEATURE_CANCEL
+ - -D__OSX_AVAILABLE_BUT_DEPRECATED_MSG(...)=
+
+python36:
+ - -I/Users/hmz/projects/cpython/Include
+ - -I/Users/hmz/projects/cpython
+ - -I./extra_fake_libc_include
+ - -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+ - -I/usr/local/Cellar/openssl@1.1/1.1.1k/include
+ - -DPREFIX
+ - -DEXEC_PREFIX
+ - -DVERSION=(3,6,11)
+ - -DVPATH
+ - -D__signed=signed
+ - -D__inline__=
+ - -D__inline=inline
+ - -D_Py_atomic_int=int
+ - -Dspeed_t=int
+ - -Dtcflag_t=int
+ - -Dcc_t=int
+ - -DHAVE_NDBM_H
+ - -DDBM=int
+ - -D_POSIX_THREADS
+ - -Dsocklen_t=int
+ - -Dquad_t=int
+ - -Du_quad_t=int
+ - -Dfd_set=int
+ - -DXSetWindowAttributes=int
+ - -DXErrorEvent=int
+ - -DFont=int
+ - -I/usr/local/Cellar/libffi/3.3_3/include
+ - -DLIBFFI_HIDE_BASIC_TYPES
+ - -DSHRT_MAX=32767
+ - -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/ffi
+ - -DCONFIG_64
+ - -DFLT_RADIX=2
+ - -D__OSX_AVAILABLE_STARTING=
+ - -DKeccakOpt=64
+ - -DMODULE_NAME=
+ - -D__int128_t=int
+ - -D__uint128_t=int
+ - -D__v4sf=int
+ - -D__v2df=int
+ - -D__m64=int
+ - -D__m128i=int
+ - -D__v2si=int
+ - -D__v4hi=int
+ - -D__v4si=int
+ - -D__v8qi=int
+ - -D__v8hi=int
+ - -D__v16qi=int
+ - -DLEGACY_COMPILER
+ - -DUINT64_MAX
+#  - -D__asm__=_asm
+
+numpy:
+ - -I/Users/hmz/projects/cpython/Include
+ - -I/Users/hmz/projects/cpython
+ - -I./extra_fake_libc_include
+ - -I/Users/hmz/projects/numpy/numpy/core/include
+ - -I/Users/hmz/projects/numpy/numpy/core/include/numpy
+ - -I/Users/hmz/projects/numpy/numpy/core/src/multiarray
+ - -I/Users/hmz/projects/numpy/numpy/core/src/common
+ - -I/Users/hmz/projects/numpy/numpy/core/src/umath
+ - -I/Users/hmz/projects/numpy/numpy/f2py/src
+ - -I/Users/hmz/projects/numpy/numpy/random/include
+ - -I/Users/hmz/projects/numpy/numpy/random/
+ - -Dnpy_uint8=unsigned int
+ - -Dnpy_uint16=unsigned int
+ - -Dnpy_uint32=unsigned int
+ - -Dnpy_uint64=unsigned long
+ - -Dnpy_int8=int
+ - -Dnpy_int16=int
+ - -Dnpy_int32=int
+ - -Dnpy_int64=long
+ - -Dnpy_ucs4=unsigned long
+ - -DNPY_INT32_FMT="hhd"
+ - -DNPY_INT64_FMT="hhd"
+ - -Dnpy_float32=float
+ - -Dnpy_float64=float
+ - -D__inline__=
+ - -DPyArray_BinSearchFunc=int
+ - -DPyArray_ArgBinSearchFunc=int
+ - -D__uint128_t=int
+#  - -DCHAR_BIT=8
+
+pillow:
+ - -I/Users/hmz/projects/cpython/Include
+ - -I/Users/hmz/projects/cpython
+ - -I/Users/hmz/projects/Pillow/src/libImaging
+ - -I/Users/hmz/projects/Pillow/src/Tk
+ - -I/usr/local/Cellar/freetype/2.10.4/include/freetype2
+ - -DCHAR_BIT=8

@@ -1,0 +1,792 @@
+/Users/hmz/Projects/Pillow/src/display.c
+/Users/hmz/Projects/Pillow/src/_imagingft.c
+Command '['gcc', '-E', '-std=c99', '-D__attribute__(x)=', '-I/Users/hmz/Projects/pycparser/utils/fake_libc_include', '-I/Users/hmz/.pyenv/versions/3.6.9/include/python3.6m', '-I/Users/hmz/Projects/Pillow/src/libImaging', '-I/Users/hmz/Projects/Pillow/src/Tk', '-I/usr/local/Cellar/freetype/2.10.4/include/freetype2', '-DCHAR_BIT=8', '/Users/hmz/Projects/Pillow/src/_imagingft.c']' returned non-zero exit status 1.
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/Pillow/src/_webp.c
+PyMethodDef [4] webpMethods (L808)
+WebPEncode -> WebPEncode_wrapper (/Users/hmz/Projects/Pillow/src/_webp.c:542:11)
+y#iiifss#s#s#
+['immutable bytes-like object', 'int', 'int', 'int', 'float', 'str', 'str | immutable bytes-like object', 'str | immutable bytes-like object', 'str | immutable bytes-like object', []]
+--->>>
+['None', 'None', 'None', 'object', 'None', []]
+WebPDecode -> WebPDecode_wrapper (/Users/hmz/Projects/Pillow/src/_webp.c:687:11)
+S
+['bytes', []]
+--->>>
+['None', 'None', 'object', []]
+WebPDecoderVersion -> WebPDecoderVersion_wrapper (/Users/hmz/Projects/Pillow/src/_webp.c:788:11)
+[]
+--->>>
+[['int', '[]']]
+WebPDecoderBuggyAlpha -> WebPDecoderBuggyAlpha_wrapper (/Users/hmz/Projects/Pillow/src/_webp.c:800:11)
+[]
+--->>>
+[['int', '[]']]
+/Users/hmz/Projects/Pillow/src/_imagingmath.c
+PyMethodDef [2] _functions (L208)
+unop -> _unop (/Users/hmz/Projects/Pillow/src/_imagingmath.c:163:1)
+nnn
+['int', 'int', 'int', []]
+--->>>
+['None', []]
+binop -> _binop (/Users/hmz/Projects/Pillow/src/_imagingmath.c:185:1)
+nnnn
+['int', 'int', 'int', 'int', []]
+--->>>
+['None', []]
+/Users/hmz/Projects/Pillow/src/decode.c
+PyMethodDef [4] methods (L245)
+decode -> _decode (/Users/hmz/Projects/Pillow/src/decode.c:117:1)
+y#
+['immutable bytes-like object', []]
+--->>>
+[['int', 'int', '[]']]
+cleanup -> _decode_cleanup (/Users/hmz/Projects/Pillow/src/decode.c:141:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+[['int', '[]']]
+setimage -> _setimage (/Users/hmz/Projects/Pillow/src/decode.c:157:1)
+O|(iiii)
+['object', ["('int', 'int', 'int', 'int')"]]
+--->>>
+['object', 'object', 'None', []]
+setfd -> _setfd (/Users/hmz/Projects/Pillow/src/decode.c:221:1)
+O
+['object', []]
+--->>>
+['None', []]
+/Users/hmz/Projects/Pillow/src/encode.c
+PyMethodDef [6] methods (L305)
+encode -> _encode (/Users/hmz/Projects/Pillow/src/encode.c:118:1)
+|n
+[['int']]
+--->>>
+['object', []]
+cleanup -> _encode_cleanup (/Users/hmz/Projects/Pillow/src/encode.c:106:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+[['int', '[]']]
+encode_to_file -> _encode_to_file (/Users/hmz/Projects/Pillow/src/encode.c:171:1)
+n|n
+['int', ['int']]
+--->>>
+['object', 'object', ['int', '[]']]
+encode_to_pyfd -> _encode_to_pyfd (/Users/hmz/Projects/Pillow/src/encode.c:150:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+['object', 'object', []]
+setimage -> _setimage (/Users/hmz/Projects/Pillow/src/encode.c:219:1)
+O|(nnnn)
+['object', ["('int', 'int', 'int', 'int')"]]
+--->>>
+['object', 'object', 'None', []]
+setfd -> _setfd (/Users/hmz/Projects/Pillow/src/encode.c:282:1)
+O
+['object', []]
+--->>>
+['None', []]
+/Users/hmz/Projects/Pillow/src/_imagingtk.c
+PyMethodDef [1] functions (L61)
+tkinit -> _tkinit (/Users/hmz/Projects/Pillow/src/_imagingtk.c:35:1)
+Oi
+['object', 'int', []]
+--->>>
+['None', []]
+/Users/hmz/Projects/Pillow/src/path.c
+PyMethodDef [5] methods (L520)
+getbbox -> path_getbbox (/Users/hmz/Projects/Pillow/src/path.c:319:1)
+:getbbox
+[[]]
+--->>>
+[['float', 'float', 'float', 'float', '[]']]
+tolist -> path_tolist (/Users/hmz/Projects/Pillow/src/path.c:442:1)
+|i:tolist
+[['int']]
+--->>>
+list
+list
+['object', 'object', 'object', []]
+compact -> path_compact (/Users/hmz/Projects/Pillow/src/path.c:284:1)
+|d:compact
+[['float']]
+--->>>
+[['int', '[]']]
+map -> path_map (/Users/hmz/Projects/Pillow/src/path.c:386:1)
+O:map
+['object', []]
+dd
+['float', 'float', []]
+--->>>
+['None', []]
+transform -> path_transform (/Users/hmz/Projects/Pillow/src/path.c:479:1)
+(dddddd)|d:transform
+["('float', 'float', 'float', 'float', 'float', 'float')", ['float']]
+--->>>
+['None', []]
+/Users/hmz/Projects/Pillow/src/outline.c
+PyMethodDef [5] _outline_methods (L151)
+line -> _outline_line (/Users/hmz/Projects/Pillow/src/outline.c:101:1)
+ff
+['float', 'float', []]
+--->>>
+['None', []]
+curve -> _outline_curve (/Users/hmz/Projects/Pillow/src/outline.c:114:1)
+ffffff
+['float', 'float', 'float', 'float', 'float', 'float', []]
+--->>>
+['None', []]
+move -> _outline_move (/Users/hmz/Projects/Pillow/src/outline.c:88:1)
+ff
+['float', 'float', []]
+--->>>
+['None', []]
+close -> _outline_close (/Users/hmz/Projects/Pillow/src/outline.c:127:1)
+:close
+[[]]
+--->>>
+['None', []]
+transform -> _outline_transform (/Users/hmz/Projects/Pillow/src/outline.c:139:1)
+(dddddd)
+["('float', 'float', 'float', 'float', 'float', 'float')", []]
+--->>>
+['None', []]
+/Users/hmz/Projects/Pillow/src/map.c
+PyMethodDef [3] methods (L235)
+read -> mapping_read (/Users/hmz/Projects/Pillow/src/map.c:120:1)
+|i
+[['int']]
+--->>>
+bytes
+['object', 'object', []]
+seek -> mapping_seek (/Users/hmz/Projects/Pillow/src/map.c:147:1)
+i|i
+['int', ['int']]
+--->>>
+['None', []]
+readimage -> mapping_readimage (/Users/hmz/Projects/Pillow/src/map.c:185:1)
+s(ii)ii
+['str', "('int', 'int')", 'int', 'int', []]
+--->>>
+['object', []]
+/Users/hmz/Projects/Pillow/src/_imagingmorph.c
+PyMethodDef [3] functions (L267)
+apply -> apply (/Users/hmz/Projects/Pillow/src/_imagingmorph.c:31:1)
+Onn
+['object', 'int', 'int', []]
+--->>>
+[['int', '[]']]
+get_on_pixels -> get_on_pixels (/Users/hmz/Projects/Pillow/src/_imagingmorph.c:225:1)
+n
+['int', []]
+--->>>
+['object', []]
+match -> match (/Users/hmz/Projects/Pillow/src/_imagingmorph.c:138:1)
+On
+['object', 'int', []]
+--->>>
+['object', []]
+/Users/hmz/Projects/Pillow/src/_imaging.c
+PyMethodDef [2] _font_methods (L2639)
+PyMethodDef [11] _draw_methods (L3080)
+PyMethodDef [63] methods (L3286)
+PyMethodDef [46] functions (L3833)
+getmask -> _font_getmask (/Users/hmz/Projects/Pillow/src/_imaging.c:2558:1)
+O|s:getmask
+['object', ['str']]
+--->>>
+['object', 'None', []]
+getsize -> _font_getsize (/Users/hmz/Projects/Pillow/src/_imaging.c:2620:1)
+O:getsize
+['object', []]
+--->>>
+['object', []]
+draw_lines -> _draw_lines (/Users/hmz/Projects/Pillow/src/_imaging.c:2846:1)
+Oi|i
+['object', 'int', ['int']]
+--->>>
+['None', []]
+draw_outline -> _draw_outline (/Users/hmz/Projects/Pillow/src/_imaging.c:2934:1)
+Oi|i
+['object', 'int', ['int']]
+--->>>
+['None', []]
+draw_polygon -> _draw_polygon (/Users/hmz/Projects/Pillow/src/_imaging.c:2998:1)
+Oi|i
+['object', 'int', ['int']]
+--->>>
+['None', []]
+draw_rectangle -> _draw_rectangle (/Users/hmz/Projects/Pillow/src/_imaging.c:3044:1)
+Oi|ii
+['object', 'int', ['int', 'int']]
+--->>>
+['None', []]
+draw_points -> _draw_points (/Users/hmz/Projects/Pillow/src/_imaging.c:2899:1)
+Oi
+['object', 'int', []]
+--->>>
+['None', []]
+draw_arc -> _draw_arc (/Users/hmz/Projects/Pillow/src/_imaging.c:2696:1)
+Offi|ii
+['object', 'float', 'float', 'int', ['int', 'int']]
+--->>>
+['None', []]
+draw_bitmap -> _draw_bitmap (/Users/hmz/Projects/Pillow/src/_imaging.c:2734:1)
+OO!i
+['object', 'object', 'int', []]
+--->>>
+['None', []]
+draw_chord -> _draw_chord (/Users/hmz/Projects/Pillow/src/_imaging.c:2771:1)
+Offii|i
+['object', 'float', 'float', 'int', 'int', ['int']]
+--->>>
+['None', []]
+draw_ellipse -> _draw_ellipse (/Users/hmz/Projects/Pillow/src/_imaging.c:2809:1)
+Oi|ii
+['object', 'int', ['int', 'int']]
+--->>>
+['None', []]
+draw_pieslice -> _draw_pieslice (/Users/hmz/Projects/Pillow/src/_imaging.c:2961:1)
+Offii|i
+['object', 'float', 'float', 'int', 'int', ['int']]
+--->>>
+['None', []]
+draw_ink -> _draw_ink (/Users/hmz/Projects/Pillow/src/_imaging.c:2682:1)
+O
+['object', []]
+--->>>
+['int', []]
+getpixel -> _getpixel (/Users/hmz/Projects/Pillow/src/_imaging.c:1129:1)
+--->>>
+['None', 'object', []]
+putpixel -> _putpixel (/Users/hmz/Projects/Pillow/src/_imaging.c:1688:1)
+(ii)O
+["('int', 'int')", 'object', []]
+--->>>
+['None', []]
+pixel_access -> pixel_access_new (/Users/hmz/Projects/Pillow/src/_imaging.c:3104:1)
+|i
+[['int']]
+--->>>
+['object', []]
+color_lut_3d -> _color_lut_3d (/Users/hmz/Projects/Pillow/src/_imaging.c:812:1)
+siiiiiO:color_lut_3d
+['str', 'int', 'int', 'int', 'int', 'int', 'object', []]
+--->>>
+['object', []]
+convert -> _convert (/Users/hmz/Projects/Pillow/src/_imaging.c:877:1)
+s|iO
+['str', ['int', 'object']]
+--->>>
+['object', []]
+convert2 -> _convert2 (/Users/hmz/Projects/Pillow/src/_imaging.c:901:1)
+O!O!
+['object', 'object', []]
+--->>>
+['None', []]
+convert_matrix -> _convert_matrix (/Users/hmz/Projects/Pillow/src/_imaging.c:918:1)
+s(ffff)
+['str', "('float', 'float', 'float', 'float')", []]
+s(ffffffffffff)
+['str', "('float', 'float', 'float', 'float', 'float', 'float', 'float', 'float', 'float', 'float', 'float', 'float')", []]
+--->>>
+['object', []]
+convert_transparent -> _convert_transparent (/Users/hmz/Projects/Pillow/src/_imaging.c:936:1)
+s(iii)
+['str', "('int', 'int', 'int')", []]
+si
+['str', 'int', []]
+--->>>
+['object', 'object', []]
+copy -> _copy (/Users/hmz/Projects/Pillow/src/_imaging.c:951:1)
+[[]]
+--->>>
+['object', []]
+crop -> _crop (/Users/hmz/Projects/Pillow/src/_imaging.c:960:1)
+(iiii)
+["('int', 'int', 'int', 'int')", []]
+--->>>
+['object', []]
+expand -> _expand_image (/Users/hmz/Projects/Pillow/src/_imaging.c:970:1)
+ii|i
+['int', 'int', ['int']]
+--->>>
+['object', []]
+filter -> _filter (/Users/hmz/Projects/Pillow/src/_imaging.c:981:1)
+(ii)ffO
+["('int', 'int')", 'float', 'float', 'object', []]
+--->>>
+['object', 'object', []]
+histogram -> _histogram (/Users/hmz/Projects/Pillow/src/_imaging.c:1198:1)
+|OO!
+[['object', 'object']]
+--->>>
+list
+['object', 'object', []]
+entropy -> _entropy (/Users/hmz/Projects/Pillow/src/_imaging.c:1238:1)
+|OO!
+[['object', 'object']]
+--->>>
+Float
+['object', []]
+modefilter -> _modefilter (/Users/hmz/Projects/Pillow/src/_imaging.c:1286:1)
+i
+['int', []]
+--->>>
+['object', []]
+offset -> _offset (/Users/hmz/Projects/Pillow/src/_imaging.c:1297:1)
+ii
+['int', 'int', []]
+--->>>
+['object', []]
+paste -> _paste (/Users/hmz/Projects/Pillow/src/_imaging.c:1307:1)
+O(iiii)|O!
+['object', "('int', 'int', 'int', 'int')", ['object']]
+--->>>
+['None', []]
+point -> _point (/Users/hmz/Projects/Pillow/src/_imaging.c:1346:1)
+Oz
+['object', 'str | None', []]
+--->>>
+['object', []]
+point_transform -> _point_transform (/Users/hmz/Projects/Pillow/src/_imaging.c:1423:1)
+|dd
+[['float', 'float']]
+--->>>
+['object', []]
+putdata -> _putdata (/Users/hmz/Projects/Pillow/src/_imaging.c:1434:1)
+O|dd
+['object', ['float', 'float']]
+--->>>
+['None', []]
+quantize -> _quantize (/Users/hmz/Projects/Pillow/src/_imaging.c:1574:1)
+|iii
+[['int', 'int', 'int']]
+--->>>
+['object', 'object', []]
+rankfilter -> _rankfilter (/Users/hmz/Projects/Pillow/src/_imaging.c:1724:1)
+ii
+['int', 'int', []]
+--->>>
+['object', []]
+resize -> _resize (/Users/hmz/Projects/Pillow/src/_imaging.c:1735:1)
+(ii)|i(ffff)
+["('int', 'int', 'float', 'float', 'float', 'float')", ['int', "('int', 'int', 'float', 'float', 'float', 'float')"]]
+--->>>
+['object', 'object', 'object', 'object', 'object', []]
+reduce -> _reduce (/Users/hmz/Projects/Pillow/src/_imaging.c:1797:1)
+(ii)|(iiii)
+["('int', 'int', 'int', 'int', 'int', 'int')", ["('int', 'int', 'int', 'int', 'int', 'int')"]]
+--->>>
+['object', 'object', 'object', 'object', 'object', []]
+transpose -> _transpose (/Users/hmz/Projects/Pillow/src/_imaging.c:1938:1)
+i
+['int', []]
+--->>>
+['object', []]
+transform2 -> _transform2 (/Users/hmz/Projects/Pillow/src/_imaging.c:1885:1)
+(iiii)O!iO|ii
+["('int', 'int', 'int', 'int')", 'object', 'int', 'object', ['int', 'int']]
+--->>>
+['None', []]
+isblock -> _isblock (/Users/hmz/Projects/Pillow/src/_imaging.c:2045:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+Bool
+['object', []]
+getbbox -> _getbbox (/Users/hmz/Projects/Pillow/src/_imaging.c:2051:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+['None', ['int', 'int', 'int', 'int', '[]']]
+getcolors -> _getcolors (/Users/hmz/Projects/Pillow/src/_imaging.c:2063:1)
+i:getcolors
+['int', []]
+--->>>
+list
+['object', 'object', []]
+getextrema -> _getextrema (/Users/hmz/Projects/Pillow/src/_imaging.c:2097:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+['None', ['unsigned char', 'unsigned char', '[]', 'int', 'int', '[]', 'float', 'float', '[]', 'unsigned short', 'unsigned short', '[]']]
+getprojection -> _getprojection (/Users/hmz/Projects/Pillow/src/_imaging.c:2130:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+['object', 'object', []]
+getband -> _getband (/Users/hmz/Projects/Pillow/src/_imaging.c:2161:1)
+i
+['int', []]
+--->>>
+['object', []]
+putband -> _putband (/Users/hmz/Projects/Pillow/src/_imaging.c:2188:1)
+O!i
+['object', 'int', []]
+--->>>
+['None', []]
+split -> _split (/Users/hmz/Projects/Pillow/src/_imaging.c:2228:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+Tuple
+object
+['object', 'object', []]
+fillband -> _fillband (/Users/hmz/Projects/Pillow/src/_imaging.c:2172:1)
+ii
+['int', 'int', []]
+--->>>
+['None', []]
+setmode -> im_setmode (/Users/hmz/Projects/Pillow/src/_imaging.c:1846:1)
+s#:setmode
+['str | immutable bytes-like object', []]
+--->>>
+['None', []]
+getpalette -> _getpalette (/Users/hmz/Projects/Pillow/src/_imaging.c:1043:1)
+|ss
+[['str', 'str']]
+--->>>
+bytes
+['object', 'object', []]
+getpalettemode -> _getpalettemode (/Users/hmz/Projects/Pillow/src/_imaging.c:1077:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+Unicode
+['object', []]
+putpalette -> _putpalette (/Users/hmz/Projects/Pillow/src/_imaging.c:1594:1)
+sy#
+['str', 'immutable bytes-like object', []]
+--->>>
+['None', []]
+putpalettealpha -> _putpalettealpha (/Users/hmz/Projects/Pillow/src/_imaging.c:1635:1)
+i|i
+['int', ['int']]
+--->>>
+['None', []]
+putpalettealphas -> _putpalettealphas (/Users/hmz/Projects/Pillow/src/_imaging.c:1660:1)
+y#
+['immutable bytes-like object', []]
+--->>>
+['None', []]
+chop_invert -> _chop_invert (/Users/hmz/Projects/Pillow/src/_imaging.c:2258:1)
+[]
+[BUG] function declared without param or with unused param but ml_flag is not METH_NOARGS
+--->>>
+['object', []]
+chop_lighter -> _chop_lighter (/Users/hmz/Projects/Pillow/src/_imaging.c:2264:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_darker -> _chop_darker (/Users/hmz/Projects/Pillow/src/_imaging.c:2275:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_difference -> _chop_difference (/Users/hmz/Projects/Pillow/src/_imaging.c:2286:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_multiply -> _chop_multiply (/Users/hmz/Projects/Pillow/src/_imaging.c:2297:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_screen -> _chop_screen (/Users/hmz/Projects/Pillow/src/_imaging.c:2308:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_add -> _chop_add (/Users/hmz/Projects/Pillow/src/_imaging.c:2319:1)
+O!|fi
+['object', ['float', 'int']]
+--->>>
+['object', []]
+chop_subtract -> _chop_subtract (/Users/hmz/Projects/Pillow/src/_imaging.c:2337:1)
+O!|fi
+['object', ['float', 'int']]
+--->>>
+['object', []]
+chop_add_modulo -> _chop_add_modulo (/Users/hmz/Projects/Pillow/src/_imaging.c:2388:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_subtract_modulo -> _chop_subtract_modulo (/Users/hmz/Projects/Pillow/src/_imaging.c:2399:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_and -> _chop_and (/Users/hmz/Projects/Pillow/src/_imaging.c:2355:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_or -> _chop_or (/Users/hmz/Projects/Pillow/src/_imaging.c:2366:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_xor -> _chop_xor (/Users/hmz/Projects/Pillow/src/_imaging.c:2377:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_soft_light -> _chop_soft_light (/Users/hmz/Projects/Pillow/src/_imaging.c:2410:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_hard_light -> _chop_hard_light (/Users/hmz/Projects/Pillow/src/_imaging.c:2421:1)
+O!
+['object', []]
+--->>>
+['object', []]
+chop_overlay -> _chop_overlay (/Users/hmz/Projects/Pillow/src/_imaging.c:2432:1)
+O!
+['object', []]
+--->>>
+['object', []]
+gaussian_blur -> _gaussian_blur (/Users/hmz/Projects/Pillow/src/_imaging.c:1018:1)
+f|i
+['float', ['int']]
+--->>>
+['object', []]
+unsharp_mask -> _unsharp_mask (/Users/hmz/Projects/Pillow/src/_imaging.c:1996:1)
+fii
+['float', 'int', 'int', []]
+--->>>
+['object', []]
+box_blur -> _box_blur (/Users/hmz/Projects/Pillow/src/_imaging.c:2019:1)
+f|i
+['float', ['int']]
+--->>>
+['object', []]
+effect_spread -> _effect_spread (/Users/hmz/Projects/Pillow/src/_imaging.c:3217:1)
+i
+['int', []]
+--->>>
+['object', []]
+new_block -> _new_block (/Users/hmz/Projects/Pillow/src/_imaging.c:643:1)
+s(ii)
+['str', "('int', 'int')", []]
+--->>>
+['object', []]
+save_ppm -> _save_ppm (/Users/hmz/Projects/Pillow/src/_imaging.c:3267:1)
+s
+['str', []]
+--->>>
+['None', []]
+alpha_composite -> _alpha_composite (/Users/hmz/Projects/Pillow/src/_imaging.c:677:1)
+O!O!
+['object', 'object', []]
+--->>>
+['object', []]
+blend -> _blend (/Users/hmz/Projects/Pillow/src/_imaging.c:691:1)
+O!O!|d
+['object', 'object', ['float']]
+--->>>
+['object', []]
+fill -> _fill (/Users/hmz/Projects/Pillow/src/_imaging.c:598:1)
+s|(ii)O
+['str', ["('int', 'int')", 'object']]
+--->>>
+['object', []]
+new -> _new (/Users/hmz/Projects/Pillow/src/_imaging.c:631:1)
+s(ii)
+['str', "('int', 'int')", []]
+--->>>
+['object', []]
+merge -> _merge (/Users/hmz/Projects/Pillow/src/_imaging.c:2205:1)
+sO!|O!O!O!
+['str', 'object', ['object', 'object', 'object']]
+--->>>
+['object', []]
+convert -> _convert2 (/Users/hmz/Projects/Pillow/src/_imaging.c:901:1)
+O!O!
+['object', 'object', []]
+--->>>
+['None', []]
+getcodecstatus -> _getcodecstatus (/Users/hmz/Projects/Pillow/src/_imaging.c:3235:1)
+i
+['int', []]
+--->>>
+Unicode
+['None', 'object', []]
+effect_mandelbrot -> _effect_mandelbrot (/Users/hmz/Projects/Pillow/src/_imaging.c:3187:1)
+|(ii)(dddd)i
+[["('int', 'int', 'float', 'float', 'float', 'float')", "('int', 'int', 'float', 'float', 'float', 'float')", 'int']]
+--->>>
+['object', []]
+effect_noise -> _effect_noise (/Users/hmz/Projects/Pillow/src/_imaging.c:3206:1)
+(ii)|f
+["('int', 'int')", ['float']]
+--->>>
+['object', []]
+linear_gradient -> _linear_gradient (/Users/hmz/Projects/Pillow/src/_imaging.c:655:1)
+s
+['str', []]
+--->>>
+['object', []]
+radial_gradient -> _radial_gradient (/Users/hmz/Projects/Pillow/src/_imaging.c:666:1)
+s
+['str', []]
+--->>>
+['object', []]
+wedge -> _linear_gradient (/Users/hmz/Projects/Pillow/src/_imaging.c:655:1)
+s
+['str', []]
+--->>>
+['object', []]
+font -> _font_new (/Users/hmz/Projects/Pillow/src/_imaging.c:2449:1)
+O!y#
+['object', []]
+--->>>
+['object', []]
+draw -> _draw_new (/Users/hmz/Projects/Pillow/src/_imaging.c:2648:1)
+O!|i
+['object', ['int']]
+--->>>
+['object', []]
+get_stats -> _get_stats (/Users/hmz/Projects/Pillow/src/_imaging.c:3612:1)
+:get_stats
+[[]]
+--->>>
+Dict
+object
+['object', 'object', []]
+reset_stats -> _reset_stats (/Users/hmz/Projects/Pillow/src/_imaging.c:3639:1)
+:reset_stats
+[[]]
+--->>>
+['None', []]
+get_alignment -> _get_alignment (/Users/hmz/Projects/Pillow/src/_imaging.c:3657:1)
+:get_alignment
+[[]]
+--->>>
+['int', []]
+get_block_size -> _get_block_size (/Users/hmz/Projects/Pillow/src/_imaging.c:3666:1)
+:get_block_size
+[[]]
+--->>>
+['int', []]
+get_blocks_max -> _get_blocks_max (/Users/hmz/Projects/Pillow/src/_imaging.c:3675:1)
+:get_blocks_max
+[[]]
+--->>>
+['int', []]
+set_alignment -> _set_alignment (/Users/hmz/Projects/Pillow/src/_imaging.c:3684:1)
+i:set_alignment
+['int', []]
+--->>>
+['None', []]
+set_block_size -> _set_block_size (/Users/hmz/Projects/Pillow/src/_imaging.c:3707:1)
+i:set_block_size
+['int', []]
+--->>>
+['None', []]
+set_blocks_max -> _set_blocks_max (/Users/hmz/Projects/Pillow/src/_imaging.c:3732:1)
+i:set_blocks_max
+['int', []]
+--->>>
+['None', []]
+clear_cache -> _clear_cache (/Users/hmz/Projects/Pillow/src/_imaging.c:3760:1)
+|i:clear_cache
+[['int']]
+--->>>
+['None', []]
+/Users/hmz/Projects/Pillow/src/_imagingcms.c
+Command '['gcc', '-E', '-std=c99', '-D__attribute__(x)=', '-I/Users/hmz/Projects/pycparser/utils/fake_libc_include', '-I/Users/hmz/.pyenv/versions/3.6.9/include/python3.6m', '-I/Users/hmz/Projects/Pillow/src/libImaging', '-I/Users/hmz/Projects/Pillow/src/Tk', '-I/usr/local/Cellar/freetype/2.10.4/include/freetype2', '-DCHAR_BIT=8', '/Users/hmz/Projects/Pillow/src/_imagingcms.c']' returned non-zero exit status 1.
+[ERROR] Preprocess failed, fix compilation options.
+/Users/hmz/Projects/Pillow/src/libImaging/UnsharpMask.c
+/Users/hmz/Projects/Pillow/src/libImaging/Crop.c
+/Users/hmz/Projects/Pillow/src/libImaging/PcxDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Jpeg2KDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/PcxEncode.c
+/Users/hmz/Projects/Pillow/src/libImaging/PcdDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Palette.c
+/Users/hmz/Projects/Pillow/src/libImaging/QuantHash.c
+/Users/hmz/Projects/Pillow/src/libImaging/Jpeg2KEncode.c
+/Users/hmz/Projects/Pillow/src/libImaging/RankFilter.c
+/Users/hmz/Projects/Pillow/src/libImaging/EpsEncode.c
+/Users/hmz/Projects/Pillow/src/libImaging/GetBBox.c
+/Users/hmz/Projects/Pillow/src/libImaging/Paste.c
+/Users/hmz/Projects/Pillow/src/libImaging/BcnDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/PackDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Storage.c
+/Users/hmz/Projects/Pillow/src/libImaging/Negative.c
+/Users/hmz/Projects/Pillow/src/libImaging/Access.c
+/Users/hmz/Projects/Pillow/src/libImaging/Effects.c
+/Users/hmz/Projects/Pillow/src/libImaging/Reduce.c
+/Users/hmz/Projects/Pillow/src/libImaging/QuantHeap.c
+/Users/hmz/Projects/Pillow/src/libImaging/BoxBlur.c
+/Users/hmz/Projects/Pillow/src/libImaging/Unpack.c
+/Users/hmz/Projects/Pillow/src/libImaging/ZipDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Convert.c
+/Users/hmz/Projects/Pillow/src/libImaging/codec_fd.c
+/Users/hmz/Projects/Pillow/src/libImaging/TiffDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/SunRleDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/ZipEncode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Copy.c
+/Users/hmz/Projects/Pillow/src/libImaging/Draw.c
+/Users/hmz/Projects/Pillow/src/libImaging/Geometry.c
+/Users/hmz/Projects/Pillow/src/libImaging/ConvertYCbCr.c
+/Users/hmz/Projects/Pillow/src/libImaging/Filter.c
+/Users/hmz/Projects/Pillow/src/libImaging/HexDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/UnpackYCC.c
+/Users/hmz/Projects/Pillow/src/libImaging/JpegDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Pack.c
+/Users/hmz/Projects/Pillow/src/libImaging/Fill.c
+/Users/hmz/Projects/Pillow/src/libImaging/RawDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/TgaRleEncode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Resample.c
+/Users/hmz/Projects/Pillow/src/libImaging/RawEncode.c
+/Users/hmz/Projects/Pillow/src/libImaging/JpegEncode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Blend.c
+/Users/hmz/Projects/Pillow/src/libImaging/BitDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/TgaRleDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Point.c
+/Users/hmz/Projects/Pillow/src/libImaging/AlphaComposite.c
+/Users/hmz/Projects/Pillow/src/libImaging/SgiRleDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Chops.c
+/Users/hmz/Projects/Pillow/src/libImaging/Offset.c
+/Users/hmz/Projects/Pillow/src/libImaging/QuantPngQuant.c
+/Users/hmz/Projects/Pillow/src/libImaging/FliDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/File.c
+/Users/hmz/Projects/Pillow/src/libImaging/ColorLUT.c
+/Users/hmz/Projects/Pillow/src/libImaging/Dib.c
+/Users/hmz/Projects/Pillow/src/libImaging/Quant.c
+/Users/hmz/Projects/Pillow/src/libImaging/Bands.c
+/Users/hmz/Projects/Pillow/src/libImaging/XbmEncode.c
+/Users/hmz/Projects/Pillow/src/libImaging/GifDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/Except.c
+/Users/hmz/Projects/Pillow/src/libImaging/QuantOctree.c
+/Users/hmz/Projects/Pillow/src/libImaging/Histo.c
+/Users/hmz/Projects/Pillow/src/libImaging/GifEncode.c
+/Users/hmz/Projects/Pillow/src/libImaging/XbmDecode.c
+/Users/hmz/Projects/Pillow/src/libImaging/ModeFilter.c
+/Users/hmz/Projects/Pillow/src/libImaging/Matrix.c
+/Users/hmz/Projects/Pillow/src/Tk/tkImaging.c
+========== statistics ==========
+time elapse: 40.707s
+file analyzed directly: 82
+file analyzed directly and compilable: 80
+wrapper function (WP): 132
+WP has format string(s): 119
+WP with METH_NOARGS: 2
+WP possibly with a bug: 10
+encode_to_pyfd -> _encode_to_pyfd (/Users/hmz/Projects/Pillow/src/encode.c:150:1)
+getprojection -> _getprojection (/Users/hmz/Projects/Pillow/src/_imaging.c:2130:1)
+getbbox -> _getbbox (/Users/hmz/Projects/Pillow/src/_imaging.c:2051:1)
+cleanup -> _encode_cleanup (/Users/hmz/Projects/Pillow/src/encode.c:106:1)
+isblock -> _isblock (/Users/hmz/Projects/Pillow/src/_imaging.c:2045:1)
+chop_invert -> _chop_invert (/Users/hmz/Projects/Pillow/src/_imaging.c:2258:1)
+cleanup -> _decode_cleanup (/Users/hmz/Projects/Pillow/src/decode.c:141:1)
+getextrema -> _getextrema (/Users/hmz/Projects/Pillow/src/_imaging.c:2097:1)
+split -> _split (/Users/hmz/Projects/Pillow/src/_imaging.c:2228:1)
+getpalettemode -> _getpalettemode (/Users/hmz/Projects/Pillow/src/_imaging.c:1077:1)
