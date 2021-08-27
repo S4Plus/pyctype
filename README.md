@@ -3,12 +3,12 @@
 This project is a static type inference tool for foreign functions of Python, 
 which is proposed in paper:
 **Static Type Inference for Foreign Functions of Python**.
-This tool is developed by [Mingzhe Hu](https://www.mingzhehu.cn) 
+This tool is developed by [Mingzhe Hu](https://www.mingzhehu.cn/about/) 
 under the guidance of Prof. [Yu Zhang](http://staff.ustc.edu.cn/~yuzhang/) 
 in the [S4Plus](https://s4plus.ustc.edu.cn) team 
 of [USTC](https://www.ustc.edu.cn).
 
-If you use PyScan in your research, please cite our paper as follows:
+If you use PyCType in your research, please cite our paper as follows:
 
 ```
 @inproceedings{hu2021pyctype,
