@@ -1,22 +1,23 @@
->>> Pillow 8.2.0 >>>
-getprojection -> _getprojection (/Users/hmz/projects/Pillow/src/_imaging.c:2182:1)
+The bugs start with '* ' have been confirmed and fixed.
+>>> Pillow 8.2.0 (10 in total, 7 fixed) >>>
+* getprojection -> _getprojection (/Users/hmz/projects/Pillow/src/_imaging.c:2182:1)
 encode_to_pyfd -> _encode_to_pyfd (/Users/hmz/projects/Pillow/src/encode.c:152:1)
 cleanup -> _decode_cleanup (/Users/hmz/projects/Pillow/src/decode.c:141:1)
-split -> _split (/Users/hmz/projects/Pillow/src/_imaging.c:2300:1)
+* split -> _split (/Users/hmz/projects/Pillow/src/_imaging.c:2300:1)
 cleanup -> _encode_cleanup (/Users/hmz/projects/Pillow/src/encode.c:107:1)
-getextrema -> _getextrema (/Users/hmz/projects/Pillow/src/_imaging.c:2148:1)
-isblock -> _isblock (/Users/hmz/projects/Pillow/src/_imaging.c:2098:1)
-getpalettemode -> _getpalettemode (/Users/hmz/projects/Pillow/src/_imaging.c:1089:1)
-getbbox -> _getbbox (/Users/hmz/projects/Pillow/src/_imaging.c:2103:1)
-chop_invert -> _chop_invert (/Users/hmz/projects/Pillow/src/_imaging.c:2331:1)
->>> NumPy 1.19.0 >>>
+* getextrema -> _getextrema (/Users/hmz/projects/Pillow/src/_imaging.c:2148:1)
+* isblock -> _isblock (/Users/hmz/projects/Pillow/src/_imaging.c:2098:1)
+* getpalettemode -> _getpalettemode (/Users/hmz/projects/Pillow/src/_imaging.c:1089:1)
+* getbbox -> _getbbox (/Users/hmz/projects/Pillow/src/_imaging.c:2103:1)
+* chop_invert -> _chop_invert (/Users/hmz/projects/Pillow/src/_imaging.c:2331:1)
+>>> NumPy 1.19.0 (6 in total, 1 fixed) >>>
 __complex__ -> array_complex (/Users/hmz/projects/numpy/numpy/core/src/multiarray/methods.c:2555:1)
 __exit__ -> npyiter_exit (/Users/hmz/projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:2322:1)
 __reduce__ -> arraydescr_reduce (/Users/hmz/projects/numpy/numpy/core/src/multiarray/descriptor.c:2395:1)
 __reduce__ -> array_reduce (/Users/hmz/projects/numpy/numpy/core/src/multiarray/methods.c:1646:1)
 __array__ -> iter_array (/Users/hmz/projects/numpy/numpy/core/src/multiarray/iterators.c:987:1)
-close -> npyiter_close (/Users/hmz/projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:2304:1)
->>> CPython 3.6.8 >>>
+* close -> npyiter_close (/Users/hmz/projects/numpy/numpy/core/src/multiarray/nditer_pywrap.c:2304:1)
+>>> CPython 3.6.8 (32 in total) >>>
 write -> textiobase_write (/Users/hmz/projects/cpython/Modules/_io/textio.c:113:1)
 __copy__ -> lru_cache_copy (/Users/hmz/projects/cpython/Modules/_functoolsmodule.c:1098:1)
 read1 -> bufferediobase_read1 (/Users/hmz/projects/cpython/Modules/_io/bufferedio.c:185:1)
