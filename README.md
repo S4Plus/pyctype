@@ -1,8 +1,8 @@
 # PyCType
 
 This project is a static type inference tool for foreign functions of Python, 
-which is proposed in paper:
-**Static Type Inference for Foreign Functions of Python**.
+which is proposed in the paper:
+**Static Type Inference for Foreign Functions of Python** published in the 32nd International Symposium on Software Reliability Engineering ([ISSRE 2021](http://2021.issre.net/research-accepted-papers)).
 This tool is developed by [Mingzhe Hu](https://www.mingzhehu.cn/about/) 
 under the guidance of Prof. [Yu Zhang](http://staff.ustc.edu.cn/~yuzhang/) 
 in the [S4Plus](https://s4plus.ustc.edu.cn) team 
@@ -18,7 +18,7 @@ If you use PyCType in your research, please cite our paper as follows:
     month = {October},
     year = {2021},
     organization = {IEEE},
-    pages = {?},
+    pages = {423--433},
 }
 ```
 
@@ -30,7 +30,7 @@ Enter the `src` folder, and run PyCType with:
 python evaluate.py [-c CONFIG] project
 ```
 
-`project` is the path of the project (or file) to be analyzed, `CONFIG` is an optional argument for specifying the compilation options to parse the project.
+`project` is the path of the project (or a file) to be analyzed, `CONFIG` is an optional argument for specifying the compilation options to parse the project.
 See `src/ppconfig.yml` for embedded compilation options of CPython3.6, NumPy, Pillow, and python-ldap.
 **Absolute paths there should be replaced with yours.**
 `src/preprocess.py` can be used to help configure new compilation options.
